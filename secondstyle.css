@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600&display=swap');
+
+html, body {
+    height:auto;
+    overflow-x: hidden;
+    margin: 0;
+    background-color:#120458;
+    font-family: 'Orbitron', sans-serif;
+}
+h1{
+    top:0px;
+    padding-top: 100px;
+    padding-left:20px;
+    font-weight: 300;
+    font-size: 100px;
+    color:#00eeff;
+    background-color:#01012B;
+} 
+h2{
+    padding-left:15px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 60px;
+    color:#00eeff;
+}
+h3{
+    padding-left:15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 40px;
+    color:#a3ece8;
+}
+p{
+    font-family: 'Exo 2', sans-serif;
+    padding-left:15px;
+    padding-right:20px;
+    line-height:1.6;
+    font-size: 20px;
+    color:#d2a3ec;
+}
+.word-container{
+    display:flex;
+    width: 100%;
+    padding-left:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    line-height: 2;
+    color:#f85b50;
+}
+.linkedin-link{
+    color: #0A66C2;
+    text-decoration: none;
+}   
+.horzline{ /*these are things from style 1*/
+    display: none;
+}
+.landing-image{
+    display: none;
+}
+.landing-image2{
+    width: 70%;
+    border-width: 3px; 
+    border-style: solid; 
+    border-color: #05d9e8;
+    filter: brightness(120%);
+}
+.landing-image2:hover {
+    filter: brightness(1.2) grayscale(100%) contrast(130%); 
+    transform: scale(1.1); 
+}
+.image-container{
+    text-align: center;
+    padding-bottom:50px;
+}
+
+#dropdown-menu{
+    
+    display: flex; 
+    flex-direction: row; 
+    position: absolute; 
+    width: 100%; 
+    top: 331px; 
+    background-color: #7ad2de; 
+    display: none; 
+}
+#dropdown-menu a{      
+    box-sizing: border-box; 
+}
+.dropdownbutton{
+    width: 100%;
+    position: absolute;
+    top: 280px; 
+    padding: 16px;
+    font-size: 16px;
+    background-color: #f9b0d8;
+    background: linear-gradient(135deg, #f9b0d8 , #1b72f5);
+    color: #694100;
+    cursor: pointer;
+}
+.dropdown-boxes a:hover{
+    background-color:#63345e;
+}
+.dropdown-boxes a{
+    width: 100%; 
+    color: #3c1300;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box; 
+}
+.words-in-botright{
+    text-align: center;
+    font-family: 'Audiowide', sans-serif;
+    word-spacing:8px;
+    font-size:30px;
+    padding:20px;
+    color:#f9b0d8;
+}
+.end-text{
+    padding-top:20px;
+    padding-left:20px;
+    font-size:20px;
+    color:#870f51;
+}
+.tbutton{
+    text-align:center;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.toggleThemeButton{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 16px; 
+    padding-bottom: 16px; 
+    padding-left:50px;
+    padding-right:50px;
+    border-radius: 8px; 
+    letter-spacing: 2px;
+    border: none; 
+    background: linear-gradient(135deg, #00ffcc, #0066ff);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5), 0 0 20px rgba(0, 255, 255, 0.3); 
+    color: white; 
+    cursor: pointer;
+    text-transform: uppercase;
+}
+/*TECH PORT*/
+.GitHub-Link{
+    color:#00ffcc;
+}   
+/*QUALIFICTAIONS*/
+.resume-container{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top:40px;
+}
+.resume-image{
+    width: 40%;
+    height: 40%;
+    border: 5px double #00eeff;
+    border-radius: 15px;
+}
+
+/*SERVICE*/
+.image-containerserv {
+    margin: 0; 
+    padding-top: 50px;
+}
+.pracpalsimg{
+    width:30%;
+    text-align: center;
+    margin-left:70px;
+    border: 5px double #00eeff;
+    border-radius: 15px;
+}
+.musicofharmony{
+    color:#af5471;
+}
+
+figcaption{
+    padding-left: 115px;
+    font-size: 16px;
+    font-weight: 150;
+    color:white;
+}
+
+/*TYPESCRIPT*/
+.type-links a{
+    text-decoration: none;
+    color: #ff0033;
+}
+.type-links a:hover{
+    color: #ffbde6;
+}
